@@ -8,10 +8,10 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.todos</groupId>
-    <artifactId>todos</artifactId>
+    <groupId>org.java.competitor</groupId>
+    <artifactId>competitor-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>todos</name>
+    <name>competitor-test</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
