@@ -1,4 +1,4 @@
-package org.todos.util;
+package org.todos.util.jclass;
 
 import lombok.experimental.UtilityClass;
 
@@ -6,10 +6,10 @@ import javax.tools.JavaFileObject;
 import java.net.URI;
 
 @UtilityClass
-public final class ClassUri {
+final class ClassUri {
 
-    public static URI get(final String className,
-                          final JavaFileObject.Kind kind) {
+    static URI get(final String className,
+                   final JavaFileObject.Kind kind) {
         return URI.create("string:///" + className.replace(".", "/") + kind.extension);
     }
 }
