@@ -1,6 +1,7 @@
-package org.todos.util;
+package org.todos.util.jclass;
 
 import org.junit.Test;
+import org.todos.util.jclass.ClassUri;
 
 import javax.tools.JavaFileObject;
 
