@@ -42,8 +42,7 @@ public final class TaskController {
     }
 
     @PostMapping
-    public ModelAndView handleTask(@ModelAttribute final JavaClassInfo javaClassInfo,
-                                   final ModelAndView modelAndView) {
+    public ModelAndView handleTask(@ModelAttribute final JavaClassInfo javaClassInfo) {
         final ModelAndView mav = new ModelAndView("main");
 
         // todo: extract to separate class

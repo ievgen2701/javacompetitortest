@@ -1,6 +1,7 @@
 package org.javacompet.repository;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
@@ -25,7 +26,7 @@ public class TestRepository {
     // todo: add more inputs for tasks and indexing to /inputs folder in the resource folder
     public String inputForTask(final String taskName) throws IOException {
         final Resource resource = Arrays.stream(resources)
-                .filter(res -> taskName.equals(res.getFilename()))
+                .filter(res -> taskName.equals(FilenameUtils.removeExtension(res.getFilename())))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Can't find inputs for the given task: " + taskName));
         return FileUtils.readFileToString(resource.getFile(), StandardCharsets.UTF_8);
