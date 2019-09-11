@@ -1,0 +1,26 @@
+.description {
+    font-family: "Fira Code Medium", monospace;
+    white-space: pre-line;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.input {
+    height: 30px;
+    width: 250px;
+    font-family: "Fira Code Medium", monospace;
+}

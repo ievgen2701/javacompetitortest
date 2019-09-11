@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test yourself!</title>
+    <link th:href="@{/css/main.css}" rel="stylesheet">
+</head>
+<body>
+<div th:class="row">
+    <div th:class="column">
+        <p th:class="description" th:text="${taskDescription}"></p>
+    </div>
+    <div th:class="column">
+        <form method="post" th:action="@{/tasks}" th:object="${javaClassInfo}">
+            <textarea cols="100" rows="30" th:field="*{sourceCode}"></textarea>
+            <br/>
+            <input type="submit" th:value="'Try yourself!'"/>
+        </form>
+    </div>
+    <div>
+
+        <p th:class="description" th:text="${result}"></p>
+    </div>
+</div>
+<div>
+
+</div>
+</body>
+</html>
