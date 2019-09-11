@@ -1,4 +1,4 @@
-package org.todos.util;
+package org.javacompet.util;
 
 /**
  * Byte conversion of the class data is done by implementing this interface.

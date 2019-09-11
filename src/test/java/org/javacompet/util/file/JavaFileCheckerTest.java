@@ -1,7 +1,6 @@
-package org.todos.util.file;
+package org.javacompet.util.file;
 
 import org.junit.Test;
-import org.todos.util.file.JavaFileChecker;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;

@@ -1,10 +1,9 @@
-package org.todos.util.jclass;
+package org.javacompet.util.jclass;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.todos.util.jclass.CompiledJavaClass;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

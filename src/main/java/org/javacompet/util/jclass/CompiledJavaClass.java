@@ -1,6 +1,6 @@
-package org.todos.util.jclass;
+package org.javacompet.util.jclass;
 
-import org.todos.util.HasBytes;
+import org.javacompet.util.HasBytes;
 
 import javax.tools.SimpleJavaFileObject;
 import java.io.ByteArrayOutputStream;

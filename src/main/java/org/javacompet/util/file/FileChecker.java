@@ -1,4 +1,4 @@
-package org.todos.util.file;
+package org.javacompet.util.file;
 
 /**
  * Different kind of checks can be performed within the class by implementing this interface.

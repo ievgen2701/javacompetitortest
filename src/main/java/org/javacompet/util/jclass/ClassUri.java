@@ -1,4 +1,4 @@
-package org.todos.util.jclass;
+package org.javacompet.util.jclass;
 
 import lombok.experimental.UtilityClass;
 

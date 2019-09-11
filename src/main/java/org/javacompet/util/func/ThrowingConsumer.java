@@ -1,4 +1,4 @@
-package org.todos.util.func;
+package org.javacompet.util.func;
 
 import java.util.function.Consumer;
 
